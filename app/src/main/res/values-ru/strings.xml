@@ -1,0 +1,219 @@
+<resources>
+    <string name="str_home">Главный экран</string>
+    <string name="str_logger">Журнал</string>
+    <string name="fab_info">Запуск эмуляции</string>
+    <!-- logger -->
+    <string name="startvm">VM ЗАПУЩЕНА!</string>
+    <string name="stopvm">VM ОСТАНОВЛЕНА!</string>
+    <string name="noproccesses">НЕТ ПРОЦЕССОВ!</string>
+    <string name="unknownstate">НЕИЗВЕСТНОЕ СОСТОЯНИЕ!</string>
+
+    <string name="desktopInstructions">Чтобы использовать внешнюю мышь:\n\tОтключите ускорение мыши внутри гостевой ОС.\n\t\tДля DSL используйте команду: xset m 1\n"\t\tДля других ОС отключите «Повысить точность указателя» или выберите «Мышь» \ "usb-tablet\" из основных опций Vectras.\n\tПодключите или подключите USB/Bluetooth-мышь и нажмите OK\n\tПереместите указатель мыши на все стороны рабочего стола для калибровки.\n"</string>
+    <string name="repeater_caption">Enter the repeater address &lt;b&gt;only if&lt;/b&gt; you are using an&lt;br&gt;&lt;i&gt;UltraVNC&lt;/i&gt;-type repeater</string>
+
+    <string name="navigation_drawer_open" translatable="false">drawer open</string>
+    <string name="navigation_drawer_close" translatable="false">drawer close</string>
+    <string name="address_caption">Адрес</string>
+    <string name="alt_check">Alt</string>
+    <string name="arrow_down">Down Arrow</string>
+    <string name="arrow_left">Left Arrow</string>
+    <string name="arrow_right">Right Arrow</string>
+    <string name="arrow_up">Up Arrow</string>
+    <string name="auto">Авто</string>
+    <string name="button_send_text">Написать текст</string>
+    <string name="button_send_without_saving">Отправить текст не сохраняя его</string>
+    <string name="center_mouse">Мышь</string>
+    <string name="close">Закрыть</string>
+    <string name="color_format_caption">Формат цветов</string>
+    <string name="color_mode">Цветовой режим</string>
+    <string name="connect_button">Подключить</string>
+    <string name="connection_caption">Подключение</string>
+    <string name="control_check" translatable="false">Ctrl</string>
+    <string name="reset">Перезагрузить</string>
+    <string name="shutdown">Отключить</string>
+    <string name="copy_list_button">Копировать список</string>
+    <string name="ctrl_alt_del" translatable="false">Ctrl-Alt-Del</string>
+    <string name="ctrl_c" translatable="false">Ctrl-c</string>
+    <string name="delete_connection">Удалить подключение</string>
+    <string name="delete_key">Удалить выбранную клавишу</string>
+    <string name="delete_key_list">Удалить список клавиш</string>
+    <string name="disconnect">Отключить</string>
+    <string name="devices">Устройства</string>
+    <string name="external_mouse">Внешняя мышь</string>
+    <string name="monitor" translatable="false">QEMU Monitor</string>
+    <string name="export_settings">Экспорт</string>
+    <string name="export_settings_path">Экспортировать в файл</string>
+    <string name="enter_text_title">Введите текст для отправки</string>
+    <string name="enter_text">Послать текст</string>
+    <string name="stretch_to_screen">Растянуть на экран</string>
+    <string name="fit_to_screen">По размеру экрана</string>
+    <string name="full_screen">Полноэкранный</string>
+    <string name="toggle_full_screen">Включить полноэкранный режим</string>
+    <string name="zoom_in">Приблизить</string>
+    <string name="zoom_out">Уменьшить</string>
+    <string name="force_full_check">Принудительно использовать полноэкранное растровое изображение</string>
+    <string name="import_export_settings">Импорт/экспорт настроек</string>
+    <string name="import_settings">Импорт</string>
+    <string name="import_settings_file_url">Импорт из файла или URL-адреса</string>
+    <string name="info">Сведения</string>
+    <string name="input_mode">Режим ввода</string>
+    <string name="input_mode_fit_to_screen">Трекбольная мышь без панорамирования</string>
+    <string name="input_mode_mouse">Mouse Pointer Control Mode</string>
+    <string name="input_mode_panning">Режим панорамирования рабочего стола</string>
+    <string name="input_mode_touchpad_pan_trackball_mouse">Сенсорная панорама; Трекбольная мышь</string>
+    <string name="input_mode_dpad_pan_touchpad_mouse">Сенсорная мышь; D-Pad Панорамирование</string>
+    <string name="input_mode_touch_pan_zoom_mouse">Сенсорное панорамирование и масштабирование мыши</string>
+    <string name="input_mode_touchpad">Тачпад</string>
+    <string name="keep_password_button">Держать</string>
+    <string name="intro_dont_show">Больше не показывать</string>
+    <string name="keys_caption">Ключи</string>
+    <string name="list_caption">Список</string>
+    <string name="list_name_caption">Имя списка</string>
+    <string name="local_mouse_check">Локальный указатель мыши</string>
+    <string name="meta_key_title">Отправить специальный код клавиши</string>
+    <string name="mouse_follow_pan">Мышь следует за панорамированием</string>
+    <string name="new_list_button">Новый список</string>
+    <string name="nickname_caption">Псевдоним</string>
+    <string name="off" translatable="false">Выкл</string>
+    <string name="on" translatable="false">Вкл</string>
+    <string name="one_to_one">Normal (1:1)</string>
+    <string name="open_doc">Мануал/Wiki</string>
+    <string name="pan_follow_mouse">Следовать за мышью</string>
+    <string name="password_caption">Пароль</string>
+    <string name="port_caption">Порт</string>
+    <string name="repeater_button">Репитер</string>
+    <string name="repeater_clear">Не использовать репитер</string>
+    <string name="repeater_dialog_title">Информация о репитере</string>
+    <string name="repeater_empty_text">Без репитера</string>
+    <string name="repeater_save">Использовать адрес репитера</string>
+    <string name="save_as_copy">Сохранить как копию</string>
+    <string name="scaling">Масштабирование</string>
+    <string name="save_state">Остановить VM</string>
+    <string name="save_snapshot">Сохранить Snapshot</string>
+    <string name="scaling_zoomable">Масштабирования</string>
+    <!--  Send selected metakey  -->
+    <string name="send_button">Отправить</string>
+    <string name="send_key_again">Отправить команду ещё раз</string>
+    <string name="shift_check">Shift</string>
+    <string name="shortcut_label">VNC Подключение</string>
+    <string name="showkbd_label">Клавиатура</string>
+    <string name="special_keys">Специальные клавишы</string>
+    <string name="username_caption">Имя пользователя</string>
+    <string name="email_caption">Почта</string>
+    <string name="username_hint">For Windows Authentication</string>
+    <string name="right_click">Mouse Right Click</string>
+    <string name="help">Помощь</string>
+    <string name="drives">Диски</string>
+    <string name="volume">Объем</string>
+    <string name="hide_toolbar">Скрыть панель инструментов</string>
+    <string name="view_log">Просмотр журнала</string>
+    <string name="mode">Режим</string>
+    <string name="keyboard">Клавиатура</string>
+    <string name="name">имя</string>
+    <string name="size">размер:</string>
+    <string name="availablity">доступность:</string>
+    <string name="hide">Скрыть</string>
+    <string name="title_activity_login">Активность входа</string>
+    <string name="prompt_email">Почта</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="action_sign_in">Войти</string>
+    <string name="action_sign_up">Зарегистрироваться</string>
+    <string name="action_sign_with_google">Войти через google</string>
+    <string name="welcome">"Добро пожаловать!"</string>
+    <string name="invalid_username">Недействительное имя пользователя</string>
+    <string name="invalid_password">Пароль должен иметь не меньше 5 символов</string>
+    <string name="login_failed">"Ошибка входа"</string>
+    <string name="profile">Профиль</string>
+    <string name="apps_amp_games"><![CDATA[Apps & Games]]></string>
+    <string name="vectras_website">Vectras Website</string>
+    <string name="about">Информация</string>
+    <string name="emulation_information">Emulation Information</string>
+    <string name="full_name">Полное имя</string>
+    <string name="terms_amp_conditions"><![CDATA[Terms&Conditions]]></string>
+    <string name="i_accept_terms_amp_conditions"><![CDATA[I Accept Terms&Conditions]]></string>
+    <string name="settings">Настройки</string>
+    <string name="go_ahead">Продолжить</string>
+    <string name="download">Скачать</string>
+    <string name="view_profile" translatable="false"><u><![CDATA[View Profile>>]]></u></string>
+    <string name="username">ИМЯ ПОЛЬЗОВАТЕЛЯ</string>
+    <string name="save">СОХРАНИТЬ</string>
+    <string name="memory_usage">Использовано памяти</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="linux" translatable="false">linux</string>
+    <string name="windows" translatable="false">windows</string>
+    <string name="apple" translatable="false">apple</string>
+    <string name="external_vnc" translatable="false">ВНЕШНИЙ VNC</string>
+    <string name="hosted_successfully" translatable="false">HOSTED SUCCESSFULLY!</string>
+    <string name="ip" translatable="false">IP: 127.0.0.1:1</string>
+    <string name="install_rom">Установить Rom</string>
+    <string name="reconnect">Повторно подключиться</string>
+    <string name="display">Дисплей</string>
+    <string name="calibrate_mouse">Калибровать мышь</string>
+    <string name="hide_controller">СКРЫТЬ КОНТРОЛЛЕР</string>
+    <string name="remove">Удалить</string>
+    <string name="view_logs">Просмотр журнала</string>
+    <string name="title_activity_set_arch">Установка активности</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Первый фрагмент</string>
+    <string name="second_fragment_label">Второй фрагмент</string>
+    <string name="next">Следующий</string>
+    <string name="previous">Предыдущий</string>
+
+    <string name="lorem_ipsum" translatable="false">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="choose_qemu_architicture">Выбрать архитектуру qemu:</string>
+    <string name="choose_qemu_architecture">Выьрать архитектуру qemu:</string>
+    <string name="import_custom_rom_cvbi">ИМПОРТ КАСТОМНОГО ROM \".CVBI\"</string>
+    <string name="rom_name">НАЗВАНИЕ ROM</string>
+    <string name="rom_drive_qcow2_img_etc">ДИСК ROM (qcow2, img, etc...)</string>
+    <string name="qemu_params">QEMU ПАРАМЕТРЫ</string>
+    <string name="rom_icon">ROM ICON</string>
+    <string name="add">ДОБАВИТЬ</string>
+    <string name="import_iso">ИМПОРТ ISO</string>
+    <string name="importRom">ИМПОРТ</string>
+    <string name="privacy_amp_policy"><![CDATA[Privacy & Policy]]></string>
+    <string name="permission_title">Требуется разрешение!</string>
+    <string name="permission_notification_text">В соответствии с политикой Android для отправки уведомлений виртуальной машины необходимы разрешения на уведомления!</string>
+    <string name="mouse_mode">Режим мыши</string>
+    <string name="export">ЭКСПОРТ</string>
+    <string name="email_verification_sent">Подтверждение электронной почты отправлено.</string>
+    <string name="sign_out">Выход</string>
+    <string name="android" translatable="false">android</string>
+    <string name="other" translatable="false">other</string>
+    <string name="guest">Гость</string>
+</resources>
