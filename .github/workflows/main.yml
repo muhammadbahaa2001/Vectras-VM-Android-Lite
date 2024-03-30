@@ -34,7 +34,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: ${{ matrix.arch }}.apk
-        path: ./app/build/output/${{ matrix.arch }}/*-release.apk
+        path: ./app/build/output/*.apk
 
   release:
     needs: build
