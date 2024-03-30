@@ -7,7 +7,7 @@ plugins {
 android {
     signingConfigs {
         release {
-            storeFile file('C:\\vectras\\Vectras-VM-Android\\vectras.jks')
+            storeFile file('vectras.jks')
             storePassword 'epicstudios-vectras856'
             keyAlias 'Vectras'
             keyPassword 'xoureldeen856'
