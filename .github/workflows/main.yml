@@ -58,7 +58,7 @@ jobs:
 
     - name: Release App
       uses: andelf/nightly-release@main
-      if: github.repository == 'termux/termux-x11' && github.ref == 'refs/heads/master'
+      if: github.repository == 'epicstudios856/Vectras-VM-Android-Lie' && github.ref == 'refs/heads/master'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
