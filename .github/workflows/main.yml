@@ -34,7 +34,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: ${{ matrix.arch }}.apk
-        path: path/to/your/apk/output/${{ matrix.arch }}/*-release.apk
+        path: ./app/build/output/${{ matrix.arch }}/*-release.apk
 
   release:
     needs: build
@@ -57,17 +57,17 @@ jobs:
         prerelease: false
 
     - name: Release App
-      uses: andelf/nightly-release@main
+      uses: andelf/release@main
       if: github.repository == 'epicstudios856/Vectras-VM-Android-Lie' && github.ref == 'refs/heads/master'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         tag_name: nightly
-        name: 'Nightly Release $$'
+        name: 'Release $$'
         draft: false
         prerelease: false
         body: |
-          This is a nightly release of the termux-x11 app.
+          This is a release of the vectras vm lite.
           Based on ${{ github.sha }}
         files: |
           ./app/build/outputs/apk/release/app-*.apk
