@@ -14,7 +14,7 @@ android {
         }
     }
     namespace 'com.vectras.vm'
-    compileSdk 34
+    compileSdkVersion 34
 
     defaultConfig {
         applicationId "com.vectras.vm"
