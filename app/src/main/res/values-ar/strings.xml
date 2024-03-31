@@ -94,7 +94,7 @@
 <string name="repeater_save">استخدم عنوان هذا الربيتر</string>
 <string name="save_as_copy">حفظ كنسخة</string>
 <string name="scaling">تحجيم</string>
-<string name="save_state">إيقاف VM مؤقتا</string>
+<string name="save_state">إيقاف الآلة الإفتراضية مؤقتاً</string>
 <string name="save_snapshot">حفظ لقطة</string>
 <string name="scaling_zoomable">قابل للتكبير</string>
 <string name="send_button">إرسال</string>
